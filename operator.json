@@ -1,6 +1,6 @@
 {
-  "name": "Proportion operator",
-  "description": "Computes counts and relative proportions per row, per column and overall",
+  "name": "Proportion Analysis",
+  "description": "Calculates counts and relative proportions per row, column, and overall. Assesses whether a sample from a population represents the true proportion from the entire population",
   "tags": ["data wrangling", "basic operations"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/proportion_operator"]
