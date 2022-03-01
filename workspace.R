@@ -7,7 +7,9 @@ options("tercen.stepId"     = "635b15c9-55d2-466d-bda9-6e9469b67532")
 getOption("tercen.workflowId")
 getOption("tercen.stepId")
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx %>% 
   select(.y, .ci, .ri) %>%
   count(.ri, .ci) %>%
   group_by(.ri) %>%

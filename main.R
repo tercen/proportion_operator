@@ -1,7 +1,9 @@
 library(tercen)
 library(dplyr)
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx %>% 
   select(.y, .ci, .ri) %>%
   count(.ri, .ci) %>%
   group_by(.ri) %>%
