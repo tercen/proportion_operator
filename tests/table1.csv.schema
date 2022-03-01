@@ -1,0 +1,35 @@
+{
+  "kind": "TableSchema",
+  "columns": [
+    {
+      "kind": "ColumnSchema",
+      "name": ".ri",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": ".ci",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds0.n",
+      "type": "int32"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds0.prop_per_row",
+      "type": "double"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds0.prop_per_col",
+      "type": "double"
+    },
+    {
+      "kind": "ColumnSchema",
+      "name": "ds0.prop_overall",
+      "type": "double"
+    }
+  ]
+}
