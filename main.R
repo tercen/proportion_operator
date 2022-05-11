@@ -6,6 +6,7 @@ ctx <- tercenCtx()
 ctx %>% 
   select(.y, .ci, .ri) %>%
   count(.ri, .ci) %>%
+  mutate(n = as.double(n)) %>%
   group_by(.ri) %>%
   mutate(prop_per_row = n / sum(n)) %>%
   group_by(.ci) %>%
