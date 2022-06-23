@@ -14,7 +14,7 @@
     {
       "kind": "ColumnSchema",
       "name": "ds0.n",
-      "type": "int32"
+      "type": "double"
     },
     {
       "kind": "ColumnSchema",
