@@ -9,6 +9,8 @@ The `proportion operator` computes counts and relative proportions per row, per 
 Input projection|.
 ---|---
 `y-axis`        | numeric, input values 
+`row`        | (optional) numeric, input values 
+`column`        | (optional) numeric, input values 
 
 Output relations|.
 ---|---
