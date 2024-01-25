@@ -1,9 +1,14 @@
 {
   "name": "Proportion Analysis",
   "description": "Calculates counts and relative proportions per row, column, and overall.",
-  "tags": ["data wrangling", "basic operations"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/proportion_operator"]
+  "tags": [
+    "preprocessing",
+    "descriptive statistics"
+  ],
+  "authors": [
+    "tercen"
+  ],
+  "urls": [
+    "https://github.com/tercen/proportion_operator"
+  ]
 }
-
-
