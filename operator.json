@@ -1,5 +1,5 @@
 {
-  "name": "Proportion Analysis",
+  "name": "Count and Proportion",
   "description": "Calculates counts and relative proportions per row, column, and overall.",
   "tags": [
     "preprocessing",
