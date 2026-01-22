@@ -1,0 +1,49 @@
+{
+  "outputSpecs": [
+    {
+      "kind": "OperatorJoinSpec",
+      "joinOperators": [
+        {
+          "kind": "JoinOperator",
+          "joinType": "left",
+          "leftPair": {
+            "kind": "ColumnPair",
+            "lColumns": [
+              "Row Factor",
+              "Column Factor"
+            ],
+            "rColumns": [
+              "Row Factor",
+              "Column Factor"
+            ]
+          },
+          "rightRelation": {
+            "kind": "TableRelation",
+            "attributes": [
+              {
+                "kind": "Attribute",
+                "name": "n",
+                "type": "double"
+              },
+              {
+                "kind": "Attribute",
+                "name": "prop_per_row",
+                "type": "double"
+              },
+              {
+                "kind": "Attribute",
+                "name": "prop_per_col",
+                "type": "double"
+              },
+              {
+                "kind": "Attribute",
+                "name": "prop_overall",
+                "type": "double"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
