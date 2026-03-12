@@ -47,7 +47,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Input Values",
-                "type": "numeric",
+                "type": "double",
                 "description": "Numeric input values for proportion calculation.",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
